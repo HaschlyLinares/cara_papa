@@ -1,0 +1,183 @@
+
+
+#fondo{
+    background: rgb(126, 228, 219);
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 940px;
+    position: relative;
+    z-index: 1;
+    animation: pulse 5s infinite;
+   
+
+}
+
+
+
+@keyframes pulse {
+    0% {
+      background:url('../images/f98cc4d00093e05f523716f8cc52d8e9.gif');
+      background-size: cover;
+    }
+    50% {
+      background:url('../images/imagen3.jpg');
+      background-size: cover;
+    }
+    100% {
+        background:url('../images/imagen2.gif');
+        background-size: cover;
+      }
+  }
+
+
+
+#cara{
+    position: absolute;
+    margin: 0 auto;
+    top: 300px;
+    right: 0;
+    left: 0 ;
+    z-index: 2;
+    transition: 1s;
+}
+
+#cara:hover {
+    transform: scale(3,2);
+    
+}
+
+#sombrero{
+
+    position: absolute;
+    margin: 0 auto;
+    top: 220px;
+    right: 0;
+    left: 0 ;
+    z-index: 3;
+    transition: 1s;
+}
+
+#sombrero:hover {
+    transform:rotate(90deg);
+    
+}
+
+#oreja_izq{
+
+    position: absolute;
+    margin: 0 auto;
+    top: 350px;
+    right: 290px;
+    left: 0;
+    transition: 1s;
+}
+
+#oreja_izq:hover {
+    transform: translateX(-120px);
+    
+}
+
+#oreja_der{
+
+    position: absolute;
+    margin: 0 auto;
+    top: 350px;
+    right: 0;
+    left: 290px ;
+    transition: 1s;
+}
+
+#oreja_der:hover{
+    transform: translateX(120px);
+}
+
+#ojo_izq{
+    position: absolute;
+    margin: 0 auto;
+    top: 370px;
+    right: 85px;
+    left: 0 ;
+    z-index: 3;
+    transition: 1s;
+}
+
+#ojo_izq:hover {
+    transform:translateY(-50px);
+    
+}
+
+#ojo_der{
+    position: absolute;
+    margin: 0 auto;
+    top: 370px;
+    right: 0;
+    left: 85px ;
+    z-index: 3;
+    transition: 1s;
+}
+
+#ojo_der:hover {
+    transform: scale(1.5);
+    
+}
+
+#nose{
+    position: absolute;
+    margin: 0 auto;
+    top: 425px;
+    right: 0;
+    left: 0 ;
+    z-index: 4;
+    transition: 1s;
+}
+
+#nose:hover{
+    transform:rotate(360deg);
+}
+
+
+#bigote{
+    position: absolute;
+    margin: 0 auto;
+    top: 550px;
+    right: 0;
+    left: 0 ;
+    z-index: 3;
+    transition: 2s;
+}
+
+#bigote:hover{
+    transform: rotate(180deg);
+}
+
+#pie_izq{
+
+    position: absolute;
+    margin: 0 auto;
+    top: 645px;
+    right: 110px;
+    left: 0 ;
+    z-index: 1;
+    transition: 1s;
+}
+
+#pie_izq:hover{
+    transform: rotate(180deg);
+}
+
+#pie_der{
+
+    position: absolute;
+    margin: 0 auto;
+    top: 645px;
+    right: 0;
+    left: 180px ;
+    z-index: 1;
+    transition: 1s;
+}
+
+#pie_der:hover{
+    transform: rotate(360deg);
+}
